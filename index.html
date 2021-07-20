@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- === Google-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <!-- === Favicon === -->
+    <link rel="apple-touch-icon" sizes="57x57" href="src/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="src/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="src/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="src/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="src/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="src/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="src/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="src/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="src/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="src/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="src/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- === Authoren-stylesheet === -->
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+    <title>WEBDESEGN made simple</title>
+  </head>
+  <body>
+
+<!-- === Navigationliste === -->
+
+    <nav id="header-nav">
+
+    <!-- === Desktop-navigation -->
+
+     <div class="container" id="desktop-nav">
+        <div class="row">
+          <div class="col-6">
+            <a href="index.html" class="logo-link">
+              <img src="src/img/webdesign-logo.png" alt="Logo Webdesign made simple">
+            </a>
+            <ul>
+              <li class="acti"><a href="index.html">Startseite</a></li>
+              <li><a href="leistungen.html">Leistungen</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+              <li><a href="impressum.html">Impressum</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <!-- === Mobile-navigation -->
+
+     <div class="container" id="mobile-nav">
+        <div class="row">
+          <div class="col-6">
+            <a href="index.html" class="logo-link">
+              <img src="src/img/webdesign-logo.png" alt="Logo Webdesign made simple">
+            </a>
+             <div id="mobile-nav-droppdown" onclick="">
+              <div id="mobile-nav-button"><span>&equiv;</span></div>
+              <div id="mobile-nav-content">
+                <ul>
+                  <li class="acti"><a href="index.html">Startseite</a></li>
+                  <li><a href="leistungen.html">Leistungen</a></li>
+                  <li><a href="kontakt.html">Kontakt</a></li>
+                  <li><a href="impressum.html">Impressum</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<!-- === Header-Banner === -->
+
+    <header id="header-banner"></header>
+
+<!-- === Newslatter-Bereich -->
+
+    <section id="newslatter-bereich" class="clearfix">
+      <div class="container">
+        <div class="col-4" id="newslatter-text">
+          <p><span class="wichtige-text">Melde dich jetzt für den Newsletter an und verpasse nichts mehr!</span> Wir schicken dir nur interessante Informationen.</p>
+        </div>
+        <div class="col-2" id="newslatter-input">
+          <form action="index.html" method="get">
+          <label for="nsl-email">E-mail</label>
+          <input id="nsl-email" type="text" placeholder="Deine E-Mail Adresse" pattern="(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*|'(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*')@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])" title="Gibt eine gültige E-Mail Adresse ein.">
+          <button id="btn-nsl" class="btn-type1" type="submit">Jetzt anmelden!</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+<!-- === Aniemierte-Loge === -->
+
+<div class="animierte-logo">
+  <img src="src/img/webdesign-logo-klein.png" alt="Logo Webdesign made simple">
+</div>
+
+<!-- === Leistungen-Bereich === -->
+    <section id="leistungen-bereich">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <header class="intro-container">
+              <h1>WEBDESEGN made simple</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </header>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <article class="leistung-box">
+              <h2>Leistung #1</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="leistungen.html#leistung1" class="btn-type2">Ansehen</a>
+            </article>
+          </div>
+          <div class="col-3">
+            <article class="leistung-box">
+              <h2>Leistung #2</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="leistungen.html#leistung2" class="btn-type2">Ansehen</a>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <article class="leistung-box">
+              <h2>Leistung #3</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="leistungen.html#leistung3" class="btn-type2">Ansehen</a>
+            </article>
+          </div>
+          <div class="col-3">
+            <article class="leistung-box">
+              <h2>Leistung #4</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="leistungen.html#leistung4" class="btn-type2">Ansehen</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- === Video-Bereich === -->
+
+    <section id="video-bereich">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <header class="intro-container">
+              <h1>Das sind wir</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </header>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <video src="src/mov/WEBDESIGN made simple - Trailer.mp4" controls>
+              <p>
+                Leider kann video nicht wiedergegeben werden sie finden diese auch <a href="#">hier</a>.
+              </p>
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- === Service-Bereich === -->
+
+    <section id="service-bereich">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <header class="intro-container">
+              <h1>Unsere services</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </header>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <article class="service-box">
+              <div class="service-icon"></div>
+              <h1>Günstige Angebote</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consequuntur facilis omnis eligendi placeat, tenetur natus voluptate. Ducimus incidunt.</p>
+            </article>
+          </div>
+          <div class="col-2">
+            <article class="service-box">
+              <div class="service-icon"></div>
+              <h1>Schnelle Liferung</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consequuntur facilis omnis eligendi placeat, tenetur natus voluptate. Ducimus incidunt.</p>
+            </article>
+          </div>
+          <div class="col-2">
+            <article class="service-box">
+              <div class="service-icon"></div>
+              <h1>Modernes Design</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consequuntur facilis omnis eligendi placeat, tenetur natus voluptate. Ducimus incidunt.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- === Über-Uns-Bereich === -->
+    <section id="über-uns-bereich">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <header class="intro-container">
+              <h1>Das sind wir</h1>
+            </header>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <article id="über-uns">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum massa vel lacus sollicitudin tincidunt. Ut id mi et metus commodo sagittis quis ac metus. In egestas aliquet ipsum non blandit. Quisque viverra velit sit amet mauris elementum commodo. Nulla eleifend tortor a eros porta, a cursus nisl sagittis. Curabitur sit amet feugiat sem. Suspendisse luctus suscipit sapien, eu pellentesque mi tristique sed. Sed ultricies posuere consectetur. Cras sagittis hendrerit lorem. Cras ac pellentesque ante, vel volutpat felis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum massa vel lacus sollicitudin tincidunt. Ut id mi et metus commodo sagittis quis ac metus. In egestas aliquet ipsum non blandit. Quisque viverra velit sit amet mauris elementum commodo. Nulla eleifend tortor a eros porta, a cursus nisl sagittis. Curabitur sit amet feugiat sem. Suspendisse luctus suscipit sapien, eu pellentesque mi tristique sed. Sed ultricies posuere consectetur. Cras sagittis hendrerit lorem. Cras ac pellentesque ante, vel volutpat felis.
+              </p>
+              <p>
+                Etiam quis cursus nulla, ornare tempor quam. Sed imperdiet massa ac erat blandit, sed iaculis tellus volutpat. Fusce suscipit ante ac sodales ultrices. In cursus accumsan ex, quis dignissim lorem finibus in. Donec imperdiet eros iaculis nibh molestie porttitor. Phasellus dapibus, nisi eget ornare dapibus, massa ante commodo ex, at porta dui mi a arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed pellentesque nunc. Sed tortor eros, luctus sit amet viverra a, feugiat et orci. Aliquam velit nisi, sagittis et augue euismod, rutrum tincidunt leo. Donec sagittis maximus nibh, quis accumsan felis sagittis in. Aliquam eget massa at augue euismod varius. Sed sed iaculis lectus.
+              </p>
+              <p>
+                Nulla tempor viverra arcu id pharetra. Quisque ornare cursus neque, at efficitur magna posuere vel. In nec dolor sed tellus lacinia sollicitudin pharetra nec ex. Nam eget magna sed quam tincidunt laoreet a eget sem. Fusce id libero non justo varius efficitur. Donec vel pellentesque tortor, sed vulputate urna. Etiam commodo diam in egestas viverra. Fusce commodo tortor eu bibendum tempor. Aliquam imperdiet odio justo, eget dignissim mi consequat id. Sed semper mollis nulla a dictum. Maecenas et mauris diam. Aenean non commodo ipsum, a tempor nunc. Mauris tempus lacus ac varius suscipit.
+              </p>
+              <img src="src/img/webdesign-logo-vertical.png" alt="Logo von webdesign macht simple">
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- === Footer === -->
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <span>Webdesign made simple by Tomasz Procko 2019</span>
+            <a href="impressum.html">Impressum</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
